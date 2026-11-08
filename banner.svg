@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1f2a3d" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- terminal window -->
+  <g transform="translate(70,58)">
+    <rect width="640" height="184" rx="12" fill="#0b0f16" stroke="#2b3547"/>
+    <circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="22" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="22" r="6" fill="#28c840"/>
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">
+      <text x="28" y="72" font-size="20" fill="#7ee787" xml:space="preserve">daniil@kl<tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+      <text x="28" y="120" font-size="38" font-weight="700" fill="#ffffff">Daniil Zibert</text>
+      <text x="28" y="158" font-size="18" fill="#79c0ff">Backend &amp; Full-Stack Developer</text>
+      <rect x="352" y="143" width="11" height="20" fill="#79c0ff">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- stack tags -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#c9d1d9">
+    <g transform="translate(790,80)">
+      <rect width="150" height="40" rx="20" fill="#1b2433" stroke="#3b4a63"/>
+      <text x="75" y="26" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(955,80)">
+      <rect width="150" height="40" rx="20" fill="#1b2433" stroke="#3b4a63"/>
+      <text x="75" y="26" text-anchor="middle">Django</text>
+    </g>
+    <g transform="translate(790,132)">
+      <rect width="150" height="40" rx="20" fill="#1b2433" stroke="#3b4a63"/>
+      <text x="75" y="26" text-anchor="middle">C++</text>
+    </g>
+    <g transform="translate(955,132)">
+      <rect width="150" height="40" rx="20" fill="#1b2433" stroke="#3b4a63"/>
+      <text x="75" y="26" text-anchor="middle">PostgreSQL</text>
+    </g>
+    <g transform="translate(872,184)">
+      <rect width="150" height="40" rx="20" fill="#1b2433" stroke="#3b4a63"/>
+      <text x="75" y="26" text-anchor="middle">Docker</text>
+    </g>
+  </g>
+</svg>
