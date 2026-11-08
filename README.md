@@ -2,7 +2,7 @@
 
 ## Hi, I'm Daniil (￣▽￣)ノ
 
-I'm a Computer Science student at Monash University Malaysia
+I'm a Computer Science student at Monash University
 
 ## About Me
 
