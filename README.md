@@ -1,6 +1,4 @@
-Header
-
-Hi, I'm Daniil (￣▽￣)ノ
+Hi, I'm Daniil
 
 I'm a Computer Science student at Monash University Malaysia,
 heading to Monash Clayton in Melbourne for an exchange semester in 2027.
