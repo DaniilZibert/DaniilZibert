@@ -2,8 +2,7 @@
 
 ## Hi, I'm Daniil (￣▽￣)ノ
 
-I'm a Computer Science student at Monash University Malaysia,  
-heading to Monash Clayton in Melbourne for an exchange semester in 2027.
+I'm a Computer Science student at Monash University Malaysia
 
 ## About Me
 
